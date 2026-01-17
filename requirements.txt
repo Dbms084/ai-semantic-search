@@ -1,0 +1,12 @@
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+langchain
+requests
+python-dotenv
+openai
+chromadb
+tiktoken
+sentence-transformers
+langchain-ollama
