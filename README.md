@@ -67,7 +67,6 @@ Final Answer
 
 ## 📂 Project Structure
 
-```text
 ai-semantic-search/
 ├── app/
 │   ├── main.py              # RAG-powered Q&A interface
