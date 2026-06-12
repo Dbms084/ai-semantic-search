@@ -67,6 +67,7 @@ Final Answer
 
 ## 📂 Project Structure
 
+```text
 ai-semantic-search/
 ├── app/
 │   ├── main.py              # RAG-powered Q&A interface
@@ -81,7 +82,7 @@ ai-semantic-search/
 ├── requirements.txt         # Project dependencies
 ├── .env                     # Environment variables (gitignored)
 └── README.md                # Project documentation
-
+```
 
 ---
 
