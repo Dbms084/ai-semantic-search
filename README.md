@@ -67,22 +67,21 @@ Final Answer
 
 ## 📂 Project Structure
 
+```text
 ai-semantic-search/
 ├── app/
-│ ├── main.py # RAG-powered Q&A interface
-│ ├── index_documents.py # One-time document indexing
-│ │
-│ ├── ingestion/ # Google Drive ingestion
-│ ├── embeddings/ # Chunking & embeddings
-│ ├── vectorstore/ # ChromaDB logic
-│ ├── search/ # Semantic retrieval
-│ └── rag/ # Answer generation
-│
-├── chroma_db/ # Persistent vector database (gitignored)
-├── service_account.json # Google credentials (gitignored)
-├── requirements.txt
-├── .env # Environment variables (gitignored)
-└── README.md
+│   ├── main.py              # RAG-powered Q&A interface
+│   ├── index_documents.py   # One-time document indexing
+│   ├── ingestion/           # Google Drive ingestion
+│   ├── embeddings/          # Chunking & embeddings
+│   ├── vectorstore/         # ChromaDB logic
+│   ├── search/              # Semantic retrieval
+│   └── rag/                 # Answer generation
+├── chroma_db/               # Persistent vector database (gitignored)
+├── service_account.json     # Google credentials (gitignored)
+├── requirements.txt         # Project dependencies
+├── .env                     # Environment variables (gitignored)
+└── README.md                # Project documentation
 
 
 ---
